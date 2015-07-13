@@ -115,6 +115,16 @@
 <rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
 <rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
 </package>
+<package name="2920L">
+<smd name="P$1" x="-3.3" y="0" dx="3" dy="5.3" layer="1"/>
+<smd name="P$2" x="3.3" y="0" dx="3" dy="5.3" layer="1"/>
+<wire x1="-3.365" y1="-2.4" x2="-3.365" y2="2.4" width="0.127" layer="21"/>
+<wire x1="-3.365" y1="2.4" x2="3.365" y2="2.4" width="0.127" layer="21"/>
+<wire x1="3.365" y1="2.4" x2="3.365" y2="-2.4" width="0.127" layer="21"/>
+<wire x1="3.365" y1="-2.4" x2="-3.365" y2="-2.4" width="0.127" layer="21"/>
+<text x="-3.81" y="-3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="FUSE">
@@ -155,6 +165,15 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="2920L" package="2920L">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="30R160U">
@@ -180,6 +199,15 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="2920L" package="2920L">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="30R250U">
@@ -200,6 +228,15 @@
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2920L" package="2920L">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
